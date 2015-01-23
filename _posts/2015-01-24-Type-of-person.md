@@ -21,7 +21,7 @@ program that uses the FullTimeEmployee and PartTimeEmployee
 subclasses and then moves out of your way so you can get some
 work done.
 
-**A type-P person** wants practical applications. (The letter P stands for
+_*A type-P person*_ wants practical applications. (The letter P stands for
 practical.) Type-P people need to see ideas in context; otherwise, the
 ideas float away too quickly. “Show me a program that demonstrates the usefulness of the FullTimeEmployee and PartTimeEmployee
 subclasses,” says the type-P person. “I have no use for your stinking
