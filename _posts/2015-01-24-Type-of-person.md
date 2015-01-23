@@ -12,7 +12,7 @@ a type-P person, or a type-T person. (I’m this book’s author so I get to mak
 up some personality types. I can even point to someone in public and say,
 “Look! He’s a type-T person!”)
 
-__A type-F person__ wants to see the fundamentals. (The letter F stands for
+*A type-F person* wants to see the fundamentals. (The letter F stands for
 fundamentals.) “Show me a program that lays out the principles in their
 barest, most basic form,” says the type-F person. A type-F person isn’t
 worried about bells and whistles. The bells come later, and the whistles
