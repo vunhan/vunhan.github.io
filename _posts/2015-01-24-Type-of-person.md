@@ -12,7 +12,7 @@ a type-P person, or a type-T person. (I’m this book’s author so I get to mak
 up some personality types. I can even point to someone in public and say,
 “Look! He’s a type-T person!”)
 
-**A type-F person** wants to see the fundamentals. (The letter F stands for
+*A type-F person* wants to see the fundamentals. (The letter F stands for
 fundamentals.) “Show me a program that lays out the principles in their
 barest, most basic form,” says the type-F person. A type-F person isn’t
 worried about bells and whistles. The bells come later, and the whistles
@@ -21,13 +21,13 @@ program that uses the FullTimeEmployee and PartTimeEmployee
 subclasses and then moves out of your way so you can get some
 work done.
 
-_*A type-P person*_ wants practical applications. (The letter P stands for
+*A type-P person* wants practical applications. (The letter P stands for
 practical.) Type-P people need to see ideas in context; otherwise, the
 ideas float away too quickly. “Show me a program that demonstrates the usefulness of the FullTimeEmployee and PartTimeEmployee
 subclasses,” says the type-P person. “I have no use for your stinking
 abstractions. I want real-life examples, and I want them now!”
 
-**A type-T person** is inspired by something that I write about briefly in
+*A type-T person* is inspired by something that I write about briefly in
 Chapter 7. The T person wants to test the code in the FullTimeEmployee
 and PartTimeEmployee subclasses. Testing the code means putting
 the code through its paces — checking the output’s accuracy when the
