@@ -1,12 +1,16 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Moved to Jekyll!"
 date:   2017-10-09 22:39:59 +0700
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Chuyển sang blog sang Jekyll, hiện tại đã import toàn bộ blog cũ từ `blogger` sang.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+TODO:
+
+1. Code syntax highlight.
+1. Fix Twitter username.
+1. Links highlight.
 
 Jekyll also offers powerful support for code snippets:
 
