@@ -1,0 +1,13 @@
+---
+layout: post
+title: Share dữ liệu từ Ubuntu vào Win
+date: '2013-12-04T19:35:00.000-08:00'
+author: Nhân Vũ
+tags:
+- "Đã có giải pháp"
+modified_time: '2013-12-04T19:38:15.323-08:00'
+blogger_id: tag:blogger.com,1999:blog-4016730900630291037.post-2412372013086484320
+blogger_orig_url: http://vunhan93.blogspot.com/2013/12/share-du-lieu-tu-ubuntu-vao-win.html
+---
+
+<h2 style="text-align: center;"><span style="color: #38761d; font-size: x-large;">A. Ubuntu</span></h2><h3>1. Cài samba</h3><blockquote class="tr_bq"><span style="color: blue;"><b>sudo apt-get install samba</b></span></blockquote><h3>2. Thêm một tài khoản người dùng cho dịch vụ samba:<i> </i></h3><h3><i></i></h3><blockquote class="tr_bq"><span style="color: blue;"><b>sudo smbpasswd -a&lt;tên người dùng&gt;</b></span><br /><span style="color: blue;"><b>&lt;pass&gt;</b></span><br /><span style="color: blue;"><b>&lt;retype&gt;</b></span></blockquote><h3>3. Cấu hình samba để share dữ liệu:</h3><blockquote class="tr_bq"><span style="color: blue;"><b>path =&lt;đường dẫn tới tập tin muốn share&gt;</b></span><br /><span style="color: blue;"><b></b></span><span style="color: blue;"><b>available = yes</b></span><br /><span style="color: blue;"><b></b></span><span style="color: blue;"><b>valid users = </b></span><br /><span style="color: blue;"><b></b></span><span style="color: blue;"><b>read only = no</b></span><br /><span style="color: blue;"><b></b></span><span style="color: blue;"><b>browsable = yes</b></span><br /><span style="color: blue;"><b></b></span><span style="color: blue;"><b>public = yes</b></span><br /><span style="color: blue;"><b></b></span><span style="color: blue;"><b>writable = yes</b></span></blockquote><h3>4. Khởi động lại dịch vụ samba</h3><blockquote class="tr_bq"><span style="color: blue;"><b>sudo service smbd restart</b></span><i><br /></i></blockquote><h2 style="text-align: center;"><span style="color: #38761d; font-size: x-large;">B. Windows</span></h2><h3 style="text-align: left;">&nbsp;1. Nhập &lt;pass&gt; ở bước [2] vào nếu win hỏi mật khẩu.</h3><h3 style="text-align: left;">2. Tắt tường lửa.</h3><h3 style="text-align: left;"><span style="color: red;">3. Chỉ làm các bước trên nếu hai máy đã ping thấy nhau... ^_^</span></h3><blockquote class="tr_bq"><div style="text-align: right;"><span style="color: red;"><a href="http://genk.vn/thu-thuat/huong-dan-cach-chia-se-du-lieu-giua-windows-va-linux-20131203103930552.chn">Tham khảo 1</a>&nbsp;</span></div><div style="text-align: right;"><span style="color: red;"><a href="http://lifehacker.com/288033/mount-a-windows-shared-folder-in-linux">Tham khảo 2</a>&nbsp;</span></div></blockquote>

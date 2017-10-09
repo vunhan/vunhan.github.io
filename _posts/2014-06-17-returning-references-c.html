@@ -1,0 +1,12 @@
+---
+layout: post
+title: Returning References - C++
+date: '2014-06-17T02:49:00.000-07:00'
+author: Nhân Vũ
+tags: 
+modified_time: '2014-07-03T09:43:29.229-07:00'
+blogger_id: tag:blogger.com,1999:blog-4016730900630291037.post-4566746090505100644
+blogger_orig_url: http://vunhan93.blogspot.com/2014/06/returning-references-c.html
+---
+
+<span style="color: blue;">A function can return a reference. In C++ programming, there are several uses for</span><br /><span style="color: blue;">reference return values. You will see some of these later in this book when you learn about operator overloading. However, reference return values have other important applications that you can use now.</span><br /><span style="color: blue;">When a function returns a reference, it returns an implicit pointer to its return value.</span><br /><span style="color: blue;">This gives rise to a rather startling possibility: The function can be used on the left</span><br /><span style="color: blue;">side of an assignment statement! For example, consider this simple program:</span><br /><br /><span style="color: #666666;">Một hàm có thể trả về một tham chiếu. Trong ngôn ngữ lập trình C++,  có một vài cách dùng để tham chiếu trả về một giá những giá trị. Bạn sẽ thấy một vài trong số chúng ở phần sau của cuốn sách này khi mà bạn học về nạp chồng toán tử. Tuy nhiên, tham chiếu trả về những giá trị có một tầm ứng dụng quan trọng mà bạn có thể sử dụng ngay bây giờ.</span><br /><span style="color: #666666;">Khi một hàm trả về một tham chiếu, nó trả về một con trỏ không tường minh để trỏ đến chính giá trị của nó. (khó hiểu đúng không?)</span><br /><span style="color: #666666;">Điều đó khiến cho nhiều thứ bắt đầu khả thi: hàm có thể được sử dụng ở phía bên trái của một phép gán! Chẳng hạn như trong đoạn chương trình sau:</span><br /><br /> <iframe src="http://pastebin.com/embed_iframe.php?i=HX2n640R" style="border:none;width:100%"></iframe>

@@ -1,0 +1,13 @@
+---
+layout: post
+title: Lần đầu nghịch dại trên Linux => mất toàn bộ dữ liệu! :))
+date: '2013-10-26T02:13:00.000-07:00'
+author: Nhân Vũ
+tags:
+- "Đã có giải pháp"
+modified_time: '2013-10-27T02:38:33.434-07:00'
+blogger_id: tag:blogger.com,1999:blog-4016730900630291037.post-8015724355059697476
+blogger_orig_url: http://vunhan93.blogspot.com/2013/10/lan-au-nghich-dai-tren-linux-mat-toan.html
+---
+
+<h4 style="text-align: center;"><b>2 dòng lệnh + quyền root + thiếu hiểu biết = DỮ LIỆU!</b></h4><br /><div style="text-align: center;">1. Mount phân vùng "SOFTWARE" lên.</div><div style="text-align: center;"><i><span style="color: red;">2. rm -r /media/*</span></i></div><div style="text-align: center;"><br /></div><div style="text-align: center;"><br /></div><div style="text-align: left;">Và thế là đèn ổ cứng sáng liên tục, linh cảm chẳng lành, mình nhấn khẩn cấp Ctrl-C. Vào SOFTWARE xem, thấy trống trống, phát hiện 2 thư mục lạ:</div><ol><li>Boot</li><li>Recovery</li></ol>Dữ liệu thì mất gần hết! <br />Kiểm tra lại, ta thấy, mount phân vùng nó sẽ vào /media/sdax! Vậy khi "rm -r /media/*" nó sẽ xóa toàn bộ những gì có trong /media/.<br />Tóm lại, đây là bài học xương máu.<br />Kinh nghiệm rút ra:<br /><ul><li>rm thì remove cụ thể, trong trường hợp của mình thì tham số "-d" hợp lý hơn là "-r".</li><li>Tại sao không dùng rmdir? </li></ul><br />Số dữ liệu bị mất không quá nghiêm trọng nên ta quyết định không phí thời gian khôi phục! :)

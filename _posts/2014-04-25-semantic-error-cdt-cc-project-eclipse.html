@@ -1,0 +1,12 @@
+---
+layout: post
+title: Semantic error - CDT -  C/C++ project - Eclipse - Linux
+date: '2014-04-25T21:37:00.003-07:00'
+author: Nhân Vũ
+tags: 
+modified_time: '2014-04-25T21:37:45.812-07:00'
+blogger_id: tag:blogger.com,1999:blog-4016730900630291037.post-1667866892511284649
+blogger_orig_url: http://vunhan93.blogspot.com/2014/04/semantic-error-cdt-cc-project-eclipse.html
+---
+
+Gặp lỗi này thì khó chịu khỏi nói nhé, không phải syntax error, code đúng chuẩn, vậy mà nó cũng la làng cho được.<br />Compile không được, hoảng hồn!<br />Tích cực GG, cứ tưởng phải add sympol, add path các kiểu lung tung, thật ra làm theo cách này đạt hiệu quả như mình mong đợi nè:<br /><br /><span style="color: blue;"><i><span class="MsgBodyText">The key is the workspace setting for the indexer:<br /><br />[ ] Allow heuristic resolution of includes<br /><br />When I unchecked that, my problem vanished.</span></i></span>
